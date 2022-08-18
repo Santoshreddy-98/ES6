@@ -15,7 +15,8 @@ let new_crdno = bcrypt.hashSync(user.crdno,x)
 user= {...user,pw:new_pw,crdno:new_crdno}
 console.log(user)
 
-let flag = bcrypt.compareSync('1112223334445556666', user.pw)
+
+let flag = bcrypt.compareSync('123456', user.pw)
 
 flag ? console.log("Login Success") : console.log("Login Failure")
 console.log(flag)

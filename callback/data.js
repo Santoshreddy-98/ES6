@@ -1,6 +1,6 @@
 let employees = [
-    { id: 101, name: "sushma", sal: 45000 },
-    { id: 102, name: "santosh", sal: 55000 }
+    { id: 101, name: "Sushma", sal: 45000 },
+    { id: 102, name: "Santosh", sal: 55000 }
 ]
 let createEmployee = (emp,data) => {
     setTimeout(() => {
@@ -22,4 +22,4 @@ let get_Employees = () => {
     },1000)
 }
 
-createEmployee({ id: 103, name: "sandeep", sal: 65000 },get_Employees);
+createEmployee({ id: 103, name: "Sandeep", sal: 65000 },get_Employees);
